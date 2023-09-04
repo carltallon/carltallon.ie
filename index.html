@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="ffciBQCvKYUPdmB5CjA2lNUWs4RauOI6ZK041lCKzqU" />
+    <link rel="shortcut icon" style = border-radius:50%; type="image/x-icon" href="image.png" />
+    <title>Carl Tallon</title>
+
+    <!--META KEYWORDS AND DESCRIPTION-->
+    <meta name="description" content="Carl tallon Computer Science Student at TUD">
+    <meta name="keywords" content="carl tallon computer science ">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" media="only screen" />
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link href="MobileStyleSheet.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px) , only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5)" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/brython@3.8.10/brython.min.js"> </script> 
+    <script src="https://cdn.jsdelivr.net/npm/brython@3.8.10/brython_stdlib.js"> </script>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+</head>
+
+
+<body class="indexbody">
+    <!-- particles.js container --> 
+    <div id="particles-js">
+        <div class="navbar">
+
+            <li>
+
+                <ul style="display: none;">
+                    <a href="index.html">
+                         <p>Home</p>
+                    </a>
+                </ul>
+
+                <ul class="animate-reveal animate-first">
+                    <a href="skills.html">
+                         <p>Skills & XP</p>
+                    </a>
+                </ul>
+
+
+                <ul class="animate-reveal animate-first">
+                    <a href="contact.html">
+                         <p>Contact</p>
+                    </a>
+                </ul>
+
+                <ul class="animate-reveal animate-first">
+                    <a href="projects.html">
+                         <p>Projects</p>
+                    </a>
+                </ul>
+            </li>
+
+        </div>
+    
+        <h1 class="animate__animated animate__lightSpeedInRight" >Carl Tallon </h1>
+        <h2 class="animate__animated animate__lightSpeedInLeft">Computer Science Student </h2>
+        <h3 class="animate__animated animate__lightSpeedInLeft">Technological University Dublin </h3>
+        <img class = "code" src="rocket.png">
+        <img class = "meteor" src="meteor.png">
+        <img class= "planet" src="planet6.png" style="width: auto; position: fixed; top: 25%; left: 10%;">
+        <img class="satellite" src="satellite.png" style="width: auto; position: fixed; top: 30%; left: 70%;">
+        
+    </div>
+    
+    <script>
+        particlesJS("particles-js", {"particles":{"number":{"value":160,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":1,"random":true,"anim":{"enable":true,"speed":1,"opacity_min":0,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":600}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"bubble"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":{"distance":400,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":false});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);stats.domElement.style.display = 'none';
+    </script>
+</body>
+</html>
