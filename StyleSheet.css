@@ -21,13 +21,17 @@ h3 {
   margin: auto;
   margin-bottom: 20px;
   background-color: #f7ea6e;
-  border-radius: 2px;
+  border-radius: 15px;
   border: 2.5px solid #f7ea6e;
   padding: 15px;
   box-shadow: 10PX 10PX;
 
 }
 
+
+.projectcontainer h3 {
+  margin-bottom: 2vh;
+}
 
 .projectcontainer hr {
   border-color: #040816;
@@ -68,7 +72,6 @@ h2 {
 
 
 footer {
-    background-color: #f7ea6e;
     margin-bottom: 0px;
     font-family: times new roman;
     position: absolute;
@@ -81,7 +84,7 @@ footer {
 
 .footertext {
   text-align: center;
-  color: #0e1a44;
+  color: #f7ea6e;
 }
 
 h6 {
