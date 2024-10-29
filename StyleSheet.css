@@ -1,8 +1,6 @@
 body,html {
-    height: 100%;
-    margin:0 0 0px;
-    min-height:100%;
-    width:100%;
+    margin: 0;
+    padding: 0;
     background-color: #040816; 
 }
 
@@ -43,14 +41,6 @@ h3 {
 
 
 
-#rockimage {
-  height: 100px;  
-  width: 100px;
-  background-image: url("rock.jpg");
-  background-size: cover;
-} 
-
-
 
 img {
     height: 100px;
@@ -62,7 +52,7 @@ img {
 
 h2 {
     font-family: sans-serif;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
     position: relative;
     text-align: center;
@@ -105,21 +95,6 @@ h6 {
   .options {
     height: auto;
     width: auto;
-  }
-
-  #scissorsimage img {
-    height: 50px;
-    width: 50px;
-  }
-
-  #rockimage img {
-    height: 50px;
-    width: 50px;
-  }
-
-  #paperimage img {
-    height: 50px;
-    width: 50px;
   }
 
 
@@ -390,7 +365,7 @@ h6 {
 
 
 
-.indexbody h1 {
+#indexbody h1 {
   font-size: 50px;
   height: 120px;
   padding-right: 0px;
@@ -404,11 +379,11 @@ h6 {
   color: #f7ea6e;
 }
 
-.indexbody h1:hover {
+#indexbody h1:hover {
   text-shadow: 2px solid #00ff02;
 }
 
-.indexbody h2 {
+#indexbody h2 {
   color: #f7ea6e;
   font-size: 20px;
   left: 25%;
@@ -417,7 +392,7 @@ h6 {
   position: fixed;
 }
 
-.indexbody h3 {
+#indexbody h3 {
   color: #f7ea6e;
   font-size: 15px;
   left: 30%;
@@ -426,22 +401,12 @@ h6 {
   position: fixed;
 }
 
-
-.indexbody {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 20px 1fr 20px;
-  grid-template-rows: 50px 1fr 20px;
-  height: 100%;
-
-}
-
-
-
 .navbar {
   grid-column: 1/3;
   grid-row: 1;
   z-index: 4;
+  margin: 0;
+  padding: 0;
   display: flex;
   grid-template-columns: 20px 1fr 20px;
   grid-template-rows: 50px 1fr 20px;
@@ -495,6 +460,20 @@ ul p {
     top: 60%;
   }
 
+  #particles-js{
+    margin: 0;
+    padding: 0;
+  }
+
+  #indexbody h2 {
+    
+    top: 60%;
+  }
+
+  ul p {
+    font-size: 15px;
+  }
+
   .projectcontainer {
     max-width: 300px;
     margin: auto;
@@ -505,18 +484,18 @@ ul p {
     margin-bottom: 450px;
   }
   
-  .indexbody h1 {
+  #indexbody h1 {
     top: 50%;
     font-size: 40px;
     left: 10%;
   }
 
-  .indexbody h2 {
+  #indexbody h2 {
     top: 55%;
     left: 20%;
   }
 
-  .indexbody h3 {
+  #indexbody h3 {
     top: 60%;
   }
 
@@ -563,7 +542,8 @@ ul p {
   background-repeat: no-repeat; 
   background-size: cover; 
   background-position: 50% 50%; 
-  padding: 20px;
+  padding: 0px;
+  margin-top: 0px;
 } 
   
 
